@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pizza DELICIOUS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"><span class="flaticon-pizza-1 mr-1"></span>Pizza<br><small>Delicious</small></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item active"><a href="menu.html" class="nav-link">Menu</a></li>
+	          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+			  <li class="nav-item"><a href="order.php" class="nav-link">Cart</a></li>
+			  <li class="nav-item"><a href="login.php" class="nav-link">Log in</a></li>
+
+	        </ul>
+	      </div>
+		  </div>
+	  </nav>
+    <!-- END nav -->
+
+    <section class="home-slider owl-carousel img" style="background-image: url(images/bg_1.jpg);">
+
+      <div class="slider-item" style="background-image: url(images/bg_3.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text justify-content-center align-items-center">
+
+            <div class="col-md-7 col-sm-12 text-center ftco-animate">
+            	<h1 class="mb-3 mt-5 bread">Our Menu</h1>
+	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Menu</span></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    
+	<section class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-4">Hot Pizza Meals</h2>
+            <p>Anyone who says that money cannot buy happiness has clearly never spent their money on pizza.</p>
+          </div>
+        </div>
+    	</div>
+		<!-- hot meals -->
+    	<div class="container-wrap">
+    		<div class="row no-gutters d-flex">
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex image-1">
+    					<a href="#" class="img" name="pimage" style="background-image: url(images/pizza-1.jpg);"></a>
+    					<div class="text p-4">
+							<form action="index.php" method="POST">
+								<div class="form-group">
+    								<h3 class="heading-1" id="italian_pizza">Italian Pizza</h3>
+    								<p class="desc-1">Basic Italian pizza consists of olive oil, pureed fresh tomatoes, garlic, and oregano.</p>
+									<div class="row justify-content-center">
+										<p class="price price-1"><span> &#x20B9; 190</span></p>
+										<!-- <div class="row">
+											<label for="quantity" class="col-sm-6" style="color:aliceblue;"> Quantity</label>
+											<input type="number" class="col-sm-4 qty-1" id="quantity" >
+										</div>									 -->
+										<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+									</div>
+									<input type="hidden" name="pname" value="Italian Pizza">
+									<input type="hidden" name="price" value="190">
+								</div>	
+							</form>
+							
+    						<!-- <p class="price"><span> &#x20B9; 190</span>  -->
+								<!-- <form action="index.php" method="POST">
+									<input type="submit"  class="ml-2 btn btn-white btn-outline-white" value="Order">
+
+								</form> -->
+							</p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex image-2">
+    					<a href="#" class="img" style="background-image: url(images/pizza-2.jpg);"></a>
+    					<div class="text p-4">
+							<form action="index.php" method="POST">
+								<div class="form-group">
+    								<h3 class="heading-2">Greek Pizza</h3>
+    								<p class="desc-2">Greek-style pizza is the heavy dose of olive oil and a mix of mozzarella and white cheddar in each bite.</p>
+		        				
+									<div class="row justify-content-center">
+										<p class="price price-2"><span> &#x20B9;260</span></p>						
+										<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+									</div>
+									<input type="hidden" name="pname" value="Greek Pizza">
+									<input type="hidden" name="pdesc" value="Greek-style pizza is the heavy dose of olive oil and a mix of mozzarella and white cheddar in each bite.">
+									<input type="hidden" name="price" value="260">
+								</div>	
+							</form>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex image-3">
+    					<a href="#" class="img" style="background-image: url(images/pizza-3.jpg);"></a>
+    					<div class="text p-4">
+							<form action="index.php" method="POST">
+								<div class="form-group">
+									<h3 class="heading-3">Caucasian Pizza</h3>
+									<p class="desc-3">White pizza also known as white pie is an Italian styled pizza which does not use tomato sauce.</p>
+									<div class="row justify-content-center">
+										<p class="price price-3"><span> &#x20B9;320</span></p>
+									
+										<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+									</div>
+									<input type="hidden" name="pname" value="Caucasian Pizza">
+									<input type="hidden" name="pdesc" value="White pizza also known as white pie is an Italian styled pizza which does not use tomato sauce.">
+									<input type="hidden" name="price" value="320">
+								</div>	
+							</form>
+    					</div>
+    				</div>
+    			</div>
+
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex image-4">
+    					<a href="#" class="img order-lg-last" style="background-image: url(images/pizza-4.jpg);"></a>
+    					<div class="text p-4">
+							<form action="index.php" method="POST">
+								<div class="form-group">
+									<h3 class="heading-4">American Pizza</h3>
+									<p class="desc-4">One of the simplest and most traditional pizzas is the Margherita, topped with tomatoes or tomato sauce, mozzarella, and basil.</p>
+										<div class="row justify-content-center">
+											<p class="price price-4"><span> &#x20B9;290</span></p>
+											<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">	
+										</div>	
+										
+									
+									<input type="hidden" name="pname" value="American Pizza">
+									<input type="hidden" name="pdesc" value="One of the simplest and most traditional pizzas is the Margherita, topped with tomatoes or tomato sauce, mozzarella, and basil.">
+									<input type="hidden" name="price" value="290">
+								</div>
+							</form>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex image-5">
+    					<a href="#" class="img order-lg-last" style="background-image: url(images/pizza-5.jpg);"></a>
+    					<div class="text p-4">
+							<form action="index.php" method="POST">
+								<div class="form-group">
+									<h3 class="heading-5">Tomatoe Pie</h3>
+									<p class="desc-5">An authentic Naples-style pizza made by layering the cheese over the crust first, with the tomatoes on top.</p>
+										<div class="row justify-content-center">
+											<p class="price price-5"><span> &#x20B9;452</span></p>
+											<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+										</div>
+										<input type="hidden" name="pname" value="Tomatoe Pizza">
+										<input type="hidden" name="pdesc" value="An authentic Naples-style pizza made by layering the cheese over the crust first, with the tomatoes on top.">
+										<input type="hidden" name="price" value="452">
+								</div>	
+							</form>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 d-flex ftco-animate">
+    				<div class="services-wrap d-flex image-6">
+    					<a href="#" class="img order-lg-last" style="background-image: url(images/pizza-6.jpg);"></a>
+    					<div class="text p-4">
+							<form action="index.php" method="POST">
+								<div class="form-group">
+									<h3 class="heading-6">Margherita</h3>
+									<p class="desc-6">Pizza Margherita is a typical Neapolitan pizza, made with San Marzano tomatoes, mozzarella cheese, fresh basil, salt, and extra-virgin olive oil.</p>
+										<div class="row justify-content-center">
+											<p class="price price-6"><span> &#x20B9;192</span></p>
+											<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+										</div>
+										<input type="hidden" name="pname" value="Margherita">
+										<input type="hidden" name="pdesc" value="Pizza Margherita is a typical Neapolitan pizza, made with San Marzano tomatoes, mozzarella cheese, fresh basil, salt, and extra-virgin olive oil.">
+										<input type="hidden" name="price" value="192">
+								</div>	
+							</form>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+
+<!-- menu pricing -->
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Our Menu Pricing</h2>
+            <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
+            <p class="mt-5">You better cut pizza in four pieces because I'm not hungary enough to eat six.</p>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-6">
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/pizza-1.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Italian Pizza</span></h3>
+	        				<span class="price">&#x20B9;190</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Basic Italian pizza consists of olive oil, pureed fresh tomatoes, garlic, and oregano.</p>
+	        			</div>
+        			</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/pizza-2.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Greek Pizza</span></h3>
+	        				<span class="price">&#x20B9;260</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Greek-style pizza is the heavy dose of olive oil and a mix of mozzarella and white cheddar in each bite.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/pizza-3.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Caucasian Pizza</span></h3>
+	        				<span class="price">&#x20B9;320</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>White pizza also known as white pie is an Italian styled pizza which does not use tomato sauce.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/pizza-4.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>American Pizza</span></h3>
+	        				<span class="price">&#x20B9;290</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>One of the simplest and most traditional pizzas is the Margherita, which is topped with tomatoes, mozzarella, and basil.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        	</div>
+
+        	<div class="col-md-6">
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/pizza-5.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Tomatoe Pie Pizza</span></h3>
+	        				<span class="price">&#x20B9;452</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>An authentic Naples-style pizza made by layering the cheese over the crust first, with the tomatoes on top.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/pizza-6.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Margherita Pizza</span></h3>
+	        				<span class="price">&#x20B9;192</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Margherita is a typical Neapolitan pizza, made with San Marzano tomatoes, mozzarella cheese, fresh basil and olive oil.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/pizza-7.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Bacon Pizza</span></h3>
+	        				<span class="price">&#x20B9;492</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>The key to a successful bacon pizza is to cook the bacon to a crisp consistency.</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate">
+        			<div class="img" style="background-image: url(images/pizza-8.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Ham &amp; Pineapple</span></h3>
+	        				<span class="price">&#x20B9;620</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>Paired perfectly with salty, crispy, strips of ham, pineapple helps lift the overall flavour profile of a pizza</p>
+	        			</div>
+	        		</div>
+        		</div>
+        	</div>
+        </div>
+    	</div>
+    </section>
+
+    </section>
+<!-- drinks burger pasta -->
+	<section class="ftco-menu">
+		<div class="container-fluid">
+			<div class="row d-md-flex">
+				<div class="col-lg-4 ftco-animate img f-menu-img mb-5 mb-md-0" style="background-image: url(images/about.jpg);">
+				</div>
+				<div class="col-lg-8 ftco-animate p-md-5">
+					<div class="row">
+				<div class="col-md-12 nav-link-wrap mb-5">
+					<div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+					<a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Pizza</a>
+
+					<a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Drinks</a>
+
+					<a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Burgers</a>
+
+					<a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Pasta</a>
+					</div>
+				</div>
+				<div class="col-md-12 d-flex align-items-center">            
+					<div class="tab-content ftco-animate" id="v-pills-tabContent">
+					<div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+						<div class="row">
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap image-1">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-1.jpg);"></a>
+									<div class="text">
+										<form action="index.php" method="POST">
+											<div class="form-group">
+												<h3 class="heading-1" id="italian_pizza">Italian Pizza</h3>
+												<p class="desc-1">Basic Italian pizza consists of olive oil, pureed fresh tomatoes, garlic, and oregano.</p>
+												<div class="row justify-content-center">
+													<p class="price price-1"><span> &#x20B9; 190</span></p>
+													<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+												</div>
+												<input type="hidden" name="pname" value="Italian Pizza">
+												<input type="hidden" name="price" value="190">
+											</div>	
+										</form>
+									</div>
+								</div>
+							</div>	
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap image-2">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-2.jpg);"></a>
+									<div class="text">
+										<form action="index.php" method="POST">
+											<div class="form-group">
+												<h3 class="heading-2">Greek Pizza</h3>
+												<p class="desc-2">Greek-style pizza is the heavy dose of olive oil and a mix of mozzarella and white cheddar in each bite.</p>
+											
+												<div class="row justify-content-center">
+													<p class="price price-2"><span> &#x20B9;260</span></p>						
+													<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+												</div>
+												<input type="hidden" name="pname" value="Greek Pizza">
+												<input type="hidden" name="price" value="260">
+											</div>	
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap image-3">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/pizza-3.jpg);"></a>
+									<div class="text">
+										<form action="index.php" method="POST">
+											<div class="form-group">
+												<h3 class="heading-3">Caucasian Pizza</h3>
+												<p class="desc-3">White pizza also known as white pie is an Italian styled pizza which does not use tomato sauce.</p>
+												<div class="row justify-content-center">
+													<p class="price price-3"><span> &#x20B9;320</span></p>
+												
+													<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+												</div>
+												<input type="hidden" name="pname" value="Caucasian Pizza">
+												<input type="hidden" name="price" value="320">
+											</div>	
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+						<div class="row">
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap image-7">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-1.jpg);"></a>
+									<div class="text">
+										<form action="index.php" method="POST">
+											<div class="form-group">
+												<h3 class="heading-7"><a href="#">Lemonade Juice</a></h3>
+												<p class="desc-7">Lemonade is a sweetened lemon-flavored beverage. There are varieties of lemonade found throughout the world.</p>
+												<div class="row justify-content-center">
+													<p class="price price-3"><span> &#x20B9;89</span></p>
+													<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+												</div>
+												<input type="hidden" name="pname" value="Lemonade Juice">
+												<input type="hidden" name="price" value="89">
+											</div>	
+										</form>				
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap image-8">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-2.jpg);"></a>
+									<div class="text">
+										<form action="index.php" method="POST">
+											<div class="form-group">
+												<h3 class="heading-8"><a href="#">Pineapple Juice</a></h3>
+												<p class="desc-8">Pineapple juice is a liquid made from pressing the natural liquid from the pulp of the pineapple. It's high in vitamin C.</p>
+												<div class="row justify-content-center">
+													<p class="price price-8"><span> &#x20B9;119</span>
+													<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+												</div>
+												<input type="hidden" name="pname" value="Pineapple Juice">
+												<input type="hidden" name="price" value="119">
+											</div>	
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap image-9">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/drink-3.jpg);"></a>
+									<div class="text">
+										<form action="index.php" method="POST">
+											<div class="form-group">
+												<h3 class="heading-9"><a href="#">Soda Drinks</a></h3>
+												<p class="desc-9">Loose the booze and instead, indulge in one of the myriad drink combinations made with sparkling water, flavored soda and fresh juices.</p>
+												<div class="row justify-content-center">
+													<p class="price price-9"><span> &#x20B9;99</span>
+													<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+												</div>
+												<input type="hidden" name="pname" value="Soda Drinks">
+												<input type="hidden" name="price" value="99">
+											</div>	
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+						<div class="row">
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap image-10">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger-1.jpg);"></a>
+									<div class="text">
+										<form action="index.php" method="POST">
+											<div class="form-group">
+												<h3 class="heading-10"><a href="#">Big Snacker Burger</a></h3>
+												<p class="desc-10">The Big Snacker Burger boasts a flame-grilled beef patty topped with melted cheese, crispy bacon and Stacker sauce.</p>
+												<div class="row justify-content-center">
+													<p class="price price-10"><span> &#x20B9;139</span>
+													<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+												</div>
+												<input type="hidden" name="pname" value="Big Snacker Burger">
+												<input type="hidden" name="price" value="139">
+											</div>	
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap image-11">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger-2.jpg);"></a>
+									<div class="text">
+										<form action="index.php" method="POST">
+											<div class="form-group">
+												<h3 class="heading-11"><a href="#">Nacho Salsa Burger</a></h3>
+												<p class="desc-11">This burger as a patty with juicy meat, gooey cheese, salsa and tortilla chips.</p>
+													<div class="row justify-content-center">
+														<p class="price price-11"><span> &#x20B9;259</span>
+														<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+													</div>
+													<input type="hidden" name="pname" value="Nacho Salsa Burger">
+													<input type="hidden" name="price" value="259">
+											</div>	
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap image-12">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/burger-3.jpg);"></a>
+									<div class="text">
+										<form action="index.php" method="POST">
+											<div class="form-group">
+												<h3 class="heading-12"><a href="#">Great Itallian Burger</a></h3>
+												<p class="desc-12">Italian Sausage and Lean Ground Beef, grilled to perfection and topped with fresh mozzarella cheese, marinara and fresh basil.</p>
+												<div class="row justify-content-center">
+													<p class="price price-12"><span> &#x20B9;189</span>
+													<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+												</div>
+												<input type="hidden" name="pname" value="Great Itallian Burger">
+												<input type="hidden" name="price" value="189">
+											</div>	
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+						<div class="row">
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap image-13">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-1.jpg);"></a>
+									<div class="text">
+										<form action="index.php" method="POST">
+											<div class="form-group">
+												<h3 class="heading-13"><a href="#">Fusilli pasta</a></h3>
+												<p class="desc-13">Spirals of fusilli are perfect for holding onto rich and creamy Italian sauces.</p>
+												<div class="row justify-content-center">
+													<p class="price price-13"><span> &#x20B9;265</span>
+														<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+												</div>
+												<input type="hidden" name="pname" value="Fusilli pasta">
+												<input type="hidden" name="price" value="265">
+											</div>	
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap image-14">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-2.jpg);"></a>
+									<div class="text">
+										<form action="index.php" method="POST">
+											<div class="form-group">
+												<h3 class="heading-14"><a href="#">Cavatelli con rucola</a></h3>
+												<p class="desc-14">Cavatelli pasta with rocket is a typical Apulian recipe, which is also often made with orecchiette.</p>
+												<div class="row justify-content-center">
+													<p class="price price-14"><span> &#x20B9;349</span>
+													<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+												</div>
+												<input type="hidden" name="pname" value="Cavatelli con rucola">
+												<input type="hidden" name="price" value="349">
+											</div>	
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 text-center">
+								<div class="menu-wrap image-15">
+									<a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-3.jpg);"></a>
+									<div class="text">
+										<form action="index.php" method="POST">
+											<div class="form-group">
+												<h3 class="heading-15"><a href="#">Capellini</a></h3>
+												<p class="desc-15">Capellini is the perfect choice when you want to pair a light, refined sauce with a delicate cut of thin pasta.</p>
+												<div class="row justify-content-center">
+													<p class="price price-15"><span> &#x20B9;350</span>
+													<input type="submit" name="add_to_cart" class="ml-2 btn btn-white btn-outline-white input-submit" value="Add to Cart">
+												</div>
+												<input type="hidden" name="pname" value="Capellini">
+												<input type="hidden" name="price" value="350">
+											</div>	
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+
+    <!--<footer class="ftco-footer ftco-section img">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About Us</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Recent Blog</h2>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
+             <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Services</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Cooked</a></li>
+                <li><a href="#" class="py-2 d-block">Deliver</a></li>
+                <li><a href="#" class="py-2 d-block">Quality Foods</a></li>
+                <li><a href="#" class="py-2 d-block">Mixed</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+             <p>Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+   Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.</p>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+
+	<footer class="footer" style="padding:20px; text-align:center; margin:auto;">
+		<div class="row">
+		  <div class="col-md-12 text-center">
+			<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Pizza DELICIOUS</p>
+		  </div>
+		</div>
+	
+	  </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
